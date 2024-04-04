@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(207, 103, 13);
+}
+#title{
+    font-size: 280%;
+    margin-top: 70px;
+}
+#play{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    font-size: x-large;
+    margin-top: 70px;
+    transition-duration: 0.4;
+    background-color: white;
+    border-color: skyblue;
+}
+#play:hover{
+    background-color: skyblue;
+    border-color: black;
+}
+

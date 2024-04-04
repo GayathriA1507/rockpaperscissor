@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Rock Paper Scissor</title>
+        <link rel="stylesheet" href="page.css">
+    </head>
+    <body>
+        <div id="cover"></div>
+        <table>
+            <tr>
+                <th>
+                    <h1>Our choice</h1>
+                    <h2 id="choosen1">You choosen:<span id="player"></span></h2>
+                </th>
+                <th>
+                    <h1>Bot choice</h1>
+                    <h2 id="choosen2">Bot choosen:<span id="bot"></span></h2>
+                </th>
+            </tr>
+        </table>
+        <div id="btn">
+            <button id="Rock" onclick="btns()">ROCK</button>
+            <button id="Paper" onclick="btns()">PAPER</button>
+            <button id="Scissor" onclick="btns()">SCISSIOR</button>
+        
+        </div>
+        <div id="popup">
+            <input type="button" id="clos" onclick="clos()" value="X">
+            <h2><span id="result"></span></h2>
+        </div>
+
+    <script src="rps.js"></script>
+    </body>
+</html>
